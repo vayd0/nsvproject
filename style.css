@@ -1,0 +1,55 @@
+html, body {
+  font-family: 'Roboto', sans-serif;
+  background-color:#1b0e47;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+
+#background-wrap {
+  background: #150b37;
+	left: 0;
+	right: 0;
+	top: 0;
+}
+
+#info {
+  background-color:#1b0e47;
+  margin:0 auto;
+  color:white;
+}
+
+.column {
+  max-width:500px;
+}
+
+.card {
+  animation: float 2s ease-in-out infinite;
+  filter: drop-shadow(0 0 0.75rem black);
+}
+
+#img {
+  border-radius:30px;
+  vertical-align:middle;
+  width:90px;
+  filter: drop-shadow(0 0 0.75rem #060310);
+  margin-right:20px;
+}
+
+#noosv {
+  color:#d2cfdc;
+}
+
+@keyframes float {
+	0% {
+		transform: translatey(0px);
+	}
+	50% {
+		transform: translatey(-3px);
+	}
+	100% {
+		transform: translatey(0px);
+	}
+}
